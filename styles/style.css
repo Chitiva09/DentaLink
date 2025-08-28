@@ -19,14 +19,41 @@ body {
 
 }
 
-nav.navbar {
+nav {
     width: 100%;
-    height: 4em;
+    height: 5em;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+    transition: top 0.3s ease;
+    
 }
+
+.navbar-brand img {
+    height:3.5em;
+    width: 12em;
+}
+.nav-item a{
+font-family: var(--font-family);
+font-size: 1.1em;
+color: var(--secondary-color) !important;
+margin-right: 2em;
+transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+.nav-item a:hover{
+    color: var(--tertiary-color) !important;
+    text-shadow: 0 0 5px var(--tertiary-color);
+}
+.btn-outline-success {
+    border-color: var(--tertiary-color);
+    /* Cambia el color del borde */
+    color: var(--tertiary-color);
+    /* Cambia el color del texto */
+    font-family: var(--font-family-alt);
+    /* Cambia la fuente */
+    transition: all 0.3s ease-in-out;}
 
 .btn-outline-success:hover {
     background-color: var(--tertiary-color);
@@ -42,9 +69,9 @@ nav.navbar {
 .carousel,
 .carousel-inner,
 .carousel-item {
-
+    
     height: 37em;
-    border-radius: 3em;
+    border-radius: 0em 0em 3em 3em;
 }
 
 .carousel-content h5 {
