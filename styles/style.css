@@ -25,27 +25,30 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
-    transition: top 0.3s ease;
-    
+    z-index: 100;
+    transition: top 0.3s ease-in-out;
+
 }
+
 
 .navbar-brand img {
-    height:3.5em;
+    height: 3.5em;
     width: 12em;
 }
-.nav-item a{
-font-family: var(--font-family);
-font-size: 1.1em;
-color: var(--secondary-color) !important;
-margin-right: 2em;
-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+
+.nav-item a {
+    font-family: var(--font-family);
+    font-size: 1.1em;
+    color: var(--secondary-color) !important;
+    margin-right: 2em;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
 
-.nav-item a:hover{
+.nav-item a:hover {
     color: var(--tertiary-color) !important;
     text-shadow: 0 0 5px var(--tertiary-color);
 }
+
 .btn-outline-success {
     border-color: var(--tertiary-color);
     /* Cambia el color del borde */
@@ -53,7 +56,8 @@ transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
     /* Cambia el color del texto */
     font-family: var(--font-family-alt);
     /* Cambia la fuente */
-    transition: all 0.3s ease-in-out;}
+    transition: all 0.3s ease-in-out;
+}
 
 .btn-outline-success:hover {
     background-color: var(--tertiary-color);
@@ -69,9 +73,11 @@ transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 .carousel,
 .carousel-inner,
 .carousel-item {
-    
-    height: 37em;
+
+
+    height: 100vh;
     border-radius: 0em 0em 3em 3em;
+    transition: all 0.3s ease-in-out;
 }
 
 .carousel-content h5 {
@@ -292,4 +298,221 @@ transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
     box-shadow: 0 4px 8px var(--quaternary-color);
     padding-right: 1em;
 
+}
+
+.buttonService {
+    padding-top: 4em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn-service {
+    background-color: var(--tertiary-color);
+    font-size: 1.5em;
+    border-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+    
+}
+.custom-btn-service img {
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 0;
+    margin-left: -1.3em;
+    filter: invert(1);
+    transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.custom-btn-service:hover img {
+    opacity: 1;
+    margin-left: 0.5em;
+}
+.custom-btn-service:hover {
+    background-color: var(--tertiary-color);
+    border-color: var(--tertiary-color);
+    box-shadow: 0 4px 8px var(--quaternary-color);
+    padding-right: 1em;
+}
+
+/* -----------------------Estilos para la sección "Sobre Nosotros"----------------------------------------------------------------------------------------------- */
+
+.nosotros {
+    padding: 5em 2em;
+    background-color: var(--tertiary-color);
+    font-family: var(--font-family);
+}
+
+.title-nosotros {
+    text-align: center;
+    color: var(--secondary-color);
+    padding-bottom: 2em;
+}
+.title-nosotros h2 {
+    font-size: 3em;
+    
+}
+
+.info-nosotros{
+
+}
+.info-nosotros img {
+    border-radius: 2em;
+    height: 55em;
+}
+.mision{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.vision{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.mision img {
+    margin-top: 1em;
+    width: 50%;
+    height: 25em;
+}
+.vision img{
+    margin-top: 1em;
+    width: 50%;
+    height: 25em;
+}
+.info-mision-vision{
+    text-align: center;
+    padding: 1em;
+    
+}
+.info-mision-vision h5{
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    font-size: 2.4em;
+    font-weight: 600;
+}
+.info-mision-vision p{
+    font-family: var(--font-family-alt);
+    color: var(--text-color);
+}
+
+.button-nosotros {
+    padding-top: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn-nosotros {
+    background-color: var(--secondary-color);
+    font-size: 1.5em;
+    border-color: var(--secondary-color);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+    
+}
+.custom-btn-nosotros img {
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 0;
+    margin-left: -1.3em;
+    filter: invert(1);
+    transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.custom-btn-nosotros:hover img {
+    opacity: 1;
+    margin-left: 0.5em;
+}
+.custom-btn-nosotros:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 8px var(--primary-color);
+    padding-right: 1em;
+}
+
+
+/* ---------------------Contactanos -------------------------------------------------*/
+
+.contacto{
+    background-color: var(--secondary-color);
+    padding: 3em ;
+}
+
+.info-contactos{
+text-align: center;
+padding-bottom: 2em;
+padding-top: 2em;
+
+}
+.info-contactos h5{
+    font-family: var(--font-family);
+    color: var(--text-color);
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.email-whatsapp{
+    display: flex;
+    gap: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.email {
+    width: 100%;
+    
+}
+.whatsapp {
+    width: 100%;
+}
+
+.email input{
+    width: 100%;
+}
+.whatsapp input{
+    width: 100%;
+}
+.button-contacto {
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn-contacto {
+    background-color: var(--tertiary-color);
+    font-size: 1.3em;
+    border-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    transition: all 0.3s ease-in-out;
+    
+}
+.custom-btn-contacto img {
+    width: 1.3em;
+    height: 1.3em;
+    opacity: 0;
+    margin-left: -1.3em;
+    filter: invert(1);
+    transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.custom-btn-contacto:hover img {
+    opacity: 1;
+    margin-left: 0.5em;
+}
+.custom-btn-contacto:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 4px 8px var(--primary-color);
+    padding-right: 1em;
 }
