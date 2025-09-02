@@ -74,11 +74,15 @@ nav {
 .carousel-inner,
 .carousel-item {
 
-
     height: 100vh;
     border-radius: 0em 0em 3em 3em;
     transition: all 0.3s ease-in-out;
 }
+.carousel-container .row .col-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 
 .carousel-content h5 {
     font-family: var(--font-family);
@@ -633,19 +637,12 @@ box-shadow: 0 2px 6px var(--tertiary-color);
 /*-----------------------------Footer---------------------------------------------*/
 
 footer{
-
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 3em;
 
 }
-.columna1{
-    width: 100%;
-    height: 100%;
-    padding: 1.5em;
-}
+
 .logo-footer{
     width: 13em;
     height:4em;
@@ -654,14 +651,14 @@ footer{
 .info-columna1 h5{
 font-family: var(--font-family);
 color: var(--tertiary-color);
-font-size: 1em;
+font-size: 1.5em;
 font-weight: 600;
 padding-top: 1em;
 }
 .info-columna1 p {
 
     font-family: var(--font-family-alt);
-    font-size: 0.5em;
+    font-size: 0.7em;
     
 }
 
@@ -680,16 +677,43 @@ border-radius: 1em;
 
 .telefono , .email ,  .direccion , .horario{
 
-margin: 1em;
+margin: 0.7em;
 }
 .telefono a, .email a,  .direccion a, .horario a{
     text-decoration: none;
-    color: var(--tertiary-color
-    );
+    color: var(--tertiary-color);
 
 }
 .telefono img, .email img,  .direccion img, .horario img{
 
     filter: invert(1);
 
+}
+
+.columna-nosotros a, .columna-servicios a{
+    text-decoration: none;
+    color: var(--tertiary-color);
+    
+}
+
+.pie-footer{
+    width: 100%;
+    height: 100%;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+.pie-footer a{
+    font-family: var(--font-family-alt);
+    color: var(--secondary-color);
+    font-size: 0.7em;
+    text-decoration: none;
+
+}
+.container-fluid, .row, .col-12{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
