@@ -318,8 +318,9 @@ nav {
     justify-content: center;
     padding: 0.5em 1em;
     transition: all 0.3s ease-in-out;
-    
+
 }
+
 .custom-btn-service img {
     width: 1.5em;
     height: 1.5em;
@@ -328,10 +329,12 @@ nav {
     filter: invert(1);
     transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
 }
+
 .custom-btn-service:hover img {
     opacity: 1;
     margin-left: 0.5em;
 }
+
 .custom-btn-service:hover {
     background-color: var(--tertiary-color);
     border-color: var(--tertiary-color);
@@ -352,50 +355,57 @@ nav {
     color: var(--secondary-color);
     padding-bottom: 2em;
 }
+
 .title-nosotros h2 {
     font-size: 3em;
-    
-}
-
-.info-nosotros{
 
 }
+
+.info-nosotros {}
+
 .info-nosotros img {
     border-radius: 2em;
     height: 55em;
 }
-.mision{
-display: flex;
-justify-content: center;
-align-items: center;
+
+.mision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.vision{
-display: flex;
-justify-content: center;
-align-items: center;
+
+.vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .mision img {
     margin-top: 1em;
     width: 50%;
     height: 25em;
 }
-.vision img{
+
+.vision img {
     margin-top: 1em;
     width: 50%;
     height: 25em;
 }
-.info-mision-vision{
+
+.info-mision-vision {
     text-align: center;
     padding: 1em;
-    
+
 }
-.info-mision-vision h5{
+
+.info-mision-vision h5 {
     font-family: var(--font-family);
     color: var(--secondary-color);
     font-size: 2.4em;
     font-weight: 600;
 }
-.info-mision-vision p{
+
+.info-mision-vision p {
     font-family: var(--font-family-alt);
     color: var(--text-color);
 }
@@ -417,8 +427,9 @@ align-items: center;
     justify-content: center;
     padding: 0.5em 1em;
     transition: all 0.3s ease-in-out;
-    
+
 }
+
 .custom-btn-nosotros img {
     width: 1.5em;
     height: 1.5em;
@@ -427,10 +438,12 @@ align-items: center;
     filter: invert(1);
     transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
 }
+
 .custom-btn-nosotros:hover img {
     opacity: 1;
     margin-left: 0.5em;
 }
+
 .custom-btn-nosotros:hover {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
@@ -441,63 +454,80 @@ align-items: center;
 
 /* ---------------------Contactanos -------------------------------------------------*/
 
-.contacto{
+.contacto {
     background-color: var(--secondary-color);
-    padding: 3em ;
+    padding: 3em;
 }
 
-.info-contactos{
-text-align: center;
-padding-bottom: 2em;
-padding-top: 2em;
+.info-contactos {
+    text-align: center;
+    padding-bottom: 2em;
+    padding-top: 2em;
 
 }
-.info-contactos h5{
+.contenedor-formulario{
+padding: 2em;
+}
+
+.texto-formulario{
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-size: 0.8em;
+    font-weight: 550;
+    margin: 0;
+}
+.input-formulario{
+
+border-radius: 3em;
+box-shadow: 0 2px 6px var(--tertiary-color);
+
+}
+.info-contactos h5 {
     font-family: var(--font-family);
     color: var(--text-color);
     font-size: 2em;
     font-weight: 600;
 }
 
-.email-whatsapp{
+.email-whatsapp {
     display: flex;
     gap: 3em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
+
 .email {
     width: 100%;
-    
+
 }
+
 .whatsapp {
     width: 100%;
 }
 
-.email input{
+.email input {
     width: 100%;
 }
-.whatsapp input{
+
+.whatsapp input {
     width: 100%;
 }
+
 .button-contacto {
-    padding-top: 1.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 1em;
 }
 
 .custom-btn-contacto {
     background-color: var(--tertiary-color);
-    font-size: 1.3em;
+    font-size: 1em;
     border-color: var(--tertiary-color);
     color: var(--secondary-color);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+
     padding: 0.5em 1em;
     transition: all 0.3s ease-in-out;
-    
+
 }
+
 .custom-btn-contacto img {
     width: 1.3em;
     height: 1.3em;
@@ -506,13 +536,160 @@ padding-top: 2em;
     filter: invert(1);
     transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
 }
+
 .custom-btn-contacto:hover img {
     opacity: 1;
     margin-left: 0.5em;
 }
+
 .custom-btn-contacto:hover {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0 4px 8px var(--primary-color);
     padding-right: 1em;
+}
+
+.iconos-1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+
+}
+
+.title-contacto {
+    font-family: var(--font-family);
+    font-size: 1em;
+    color: var(--tertiary-color);
+}
+
+.info-contacto-derecha {
+    padding-bottom: 1em;
+}
+
+.subtitulo-contacto {
+
+    font-family: var(--font-family);
+    font-size: 2em;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.parrafo-contacto {
+
+    font-family: var(--font-family-alt);
+    color: var(--text-color);
+    font-size: 1em;
+
+}
+
+.icono {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 0.5em;
+    
+
+}
+
+.icono img {
+    width: 3em;
+    height: 3em;
+}
+
+.redes-img:hover {
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+    
+}
+
+.redes img {
+    width: 2em;
+    height: 2em;
+    transition: all 0.3s ease-in-out;
+}
+.redes-sociales p{
+    font-family: var(--font-family);
+    color: var(--tertiary-color);
+    font-size: 1em;
+    font-weight: 600;
+
+}
+.info-icono h5 {
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-weight: 530;
+
+}
+.info-icono p {
+    font-family: var(--text-color);
+    color: var(--text-color);
+}
+
+/*-----------------------------Footer---------------------------------------------*/
+
+footer{
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.columna1{
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+}
+.logo-footer{
+    width: 13em;
+    height:4em;
+    
+}
+.info-columna1 h5{
+font-family: var(--font-family);
+color: var(--tertiary-color);
+font-size: 1em;
+font-weight: 600;
+padding-top: 1em;
+}
+.info-columna1 p {
+
+    font-family: var(--font-family-alt);
+    font-size: 0.5em;
+    
+}
+
+
+.map-container iframe{
+width: 100%;
+height: 50%;
+border-radius: 1em;
+}
+
+.columna-contactanos h4, .mapa h4{
+    text-align: center;
+    
+    
+}
+
+.telefono , .email ,  .direccion , .horario{
+
+margin: 1em;
+}
+.telefono a, .email a,  .direccion a, .horario a{
+    text-decoration: none;
+    color: var(--tertiary-color
+    );
+
+}
+.telefono img, .email img,  .direccion img, .horario img{
+
+    filter: invert(1);
+
 }
