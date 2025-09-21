@@ -713,7 +713,3 @@ margin: 0.7em;
     text-decoration: none;
 
 }
-.container-fluid, .row, .col-12{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
